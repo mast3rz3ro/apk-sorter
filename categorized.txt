@@ -100,6 +100,7 @@
 0007 com.hhvvg.anytext
 0007 com.hhvvg.ecm
 0007 com.jiguro.fuckgoogle
+0007 com.macchanger
 0007 com.metris.xposed.bluetoothToolkitFree
 0007 com.mrchandler.disableprox
 0007 com.my.televip
@@ -115,6 +116,7 @@
 0007 com.winnersonx.httpinterceptor
 0007 com.wmods.wppenhacer
 0007 com.wmods.wppenhacer.w4b
+0007 com.yhpgi.spooxed
 0007 deltazero.amarok
 0007 dev.fzer0x.imsicatcherdetector2
 0007 dev.rushii.xspoofsignatures
@@ -124,6 +126,7 @@
 0007 eu.hxreborn.cleanshare
 0007 eu.hxreborn.gplayadblock
 0007 eu.rafareborn.biometricbypass
+0007 io.github.Rillwyn.androidmaceditor
 0007 io.github.ahmedmani.io.github.ahmedmani.pairipfixio.github.ahmedmani.pairipfix
 0007 io.github.hiro.lime
 0007 io.github.jqssun.maceditor

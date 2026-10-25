@@ -297,7 +297,8 @@ _main()
 			[ ${verbose_mode} -eq 1 ] && echo ": file: ${x}"
 			_manifest "${x}" && { manifest="${ret}"; unset ret; } || continue
 			echo ": ${manifest}.${x##*.}"
-			_category "${mpkg}" "${x}" && { [ -n "${ret}"] && category="${ret}"; } || continue
+			_category "${mpkg}" "${x}" || continue
+			[ -n "${ret}" ] && category="${ret}"
 			mv "${x}" "${output}/${category}/${manifest}.${x##*.}" || return 1
 		elif [ ${state} -eq 2 ] && [ "${sort_obb}" = "1" ]; then
 			result=$(echo "${x}" | grep -Po "main\.[^\.]*.\K.*" | sed "s/\.obb//")
